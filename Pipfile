@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyter-book 
-matplotlib 
-numpy 
+jupyter-book = ">=0.7.0"
+matplotlib = "*"
+numpy = "*"
 
 [dev-packages]
 

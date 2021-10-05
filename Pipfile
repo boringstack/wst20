@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 jupyter-book = ">=0.7.0b"
+pipenv install --skip-lock 
 
 [dev-packages]
 

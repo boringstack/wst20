@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="656.2023 -197 113.79769 108" width="113.79769" height="108">
+  <defs>
+    <radialGradient cx="0" cy="0" r="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3a8eed"/>
+      <stop offset=".5" stop-color="#1d5aab"/>
+      <stop offset="1" stop-color="#3a8eed"/>
+    </radialGradient>
+    <radialGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(701 -128) scale(32.52691)"/>
+    <radialGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(747 -128) scale(32.52691)"/>
+    <radialGradient id="Obj_Gradient_3" xl:href="#Gradient" gradientTransform="translate(747 -174) scale(32.52691)"/>
+    <radialGradient id="Obj_Gradient_4" xl:href="#Gradient" gradientTransform="translate(701 -174) scale(32.52691)"/>
+    <radialGradient id="Obj_Gradient_5" xl:href="#Gradient" gradientTransform="translate(679.2023 -158) scale(32.52691)"/>
+    <radialGradient id="Obj_Gradient_6" xl:href="#Gradient" gradientTransform="translate(730 -158) scale(32.52691)"/>
+    <radialGradient id="Obj_Gradient_7" xl:href="#Gradient" gradientTransform="translate(679.2023 -112) scale(32.52691)"/>
+    <radialGradient id="Obj_Gradient_8" xl:href="#Gradient" gradientTransform="translate(730 -112) scale(32.52691)"/>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2021-10-02 21:16:13 +0000</metadata>
+  <g id="Gitter" fill-opacity="1" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke="none">
+    <title>Gitter</title>
+    <rect fill="white" x="656.2023" y="-197" width="113.79769" height="108"/>
+    <g id="Gitter_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_146">
+        <circle cx="701" cy="-128" r="23.0000367517437" fill="url(#Obj_Gradient)"/>
+      </g>
+      <g id="Graphic_145">
+        <circle cx="747" cy="-128" r="23.0000367517436" fill="url(#Obj_Gradient_2)"/>
+      </g>
+      <g id="Graphic_142">
+        <circle cx="747" cy="-174" r="23.0000367517436" fill="url(#Obj_Gradient_3)"/>
+      </g>
+      <g id="Graphic_141">
+        <circle cx="701" cy="-174" r="23.0000367517437" fill="url(#Obj_Gradient_4)"/>
+      </g>
+      <g id="Graphic_138">
+        <circle cx="679.2023" cy="-158" r="23.0000367517436" fill="url(#Obj_Gradient_5)"/>
+      </g>
+      <g id="Graphic_140">
+        <circle cx="730" cy="-158" r="23.0000367517436" fill="url(#Obj_Gradient_6)"/>
+      </g>
+      <g id="Graphic_143">
+        <circle cx="679.2023" cy="-112" r="23.0000367517436" fill="url(#Obj_Gradient_7)"/>
+      </g>
+      <g id="Graphic_144">
+        <circle cx="730" cy="-112" r="23.0000367517436" fill="url(#Obj_Gradient_8)"/>
+      </g>
+    </g>
+  </g>
+</svg>

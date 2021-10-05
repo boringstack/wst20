@@ -1,0 +1,23 @@
+format: jb-book
+root: index
+parts:
+  - caption: Themenübersicht
+    chapters:
+    - file: Themenübersicht/Inhalte
+      sections:
+      - file: Themenübersicht/AtomarerAufbau
+      - file: Themenübersicht/EisenKohlenstoffDiagramm
+      - file: Themenübersicht/FestigkeitssteigerungMetallen
+      - file: Themenübersicht/ChemischeBindung
+      - file: Themenübersicht/BindungPolymere
+      - file: Themenübersicht/EinteilungsschemaKunststoffe
+      - file: Themenübersicht/Zugversuch
+      - file: Themenübersicht/Härteprüfung
+  - caption: Klausurthemen
+    chapters:
+    - file: Klausurthemen/Themen
+      sections:
+      - file: Klausurthemen/GliederungWerkstoffe
+      - file: Klausurthemen/Miller
+      - file: Klausurthemen/Gitter
+      - file: Klausurthemen/Gitterbaufehler

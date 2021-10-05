@@ -1,0 +1,3 @@
+[submodule "wst20"]
+	path = wst20
+	url = https://github.com/boringstack/wst20

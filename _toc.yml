@@ -15,10 +15,8 @@ parts:
       - file: Themenübersicht/Härteprüfung
   - caption: Klausurthemen
     chapters:
-    - file: Klausurthemen/Themen
-      sections:
-      - file: Klausurthemen/GliederungWerkstoffe
-      - file: Klausurthemen/Miller
-      - file: Klausurthemen/Gitter
-      - file: Klausurthemen/Gitterbaufehler
-      - file: Klausurthemen/TechEinteilungKunststoffe
+    - file: Klausurthemen/GliederungWerkstoffe
+    - file: Klausurthemen/Miller
+    - file: Klausurthemen/Gitter
+    - file: Klausurthemen/Gitterbaufehler
+    - file: Klausurthemen/TechEinteilungKunststoffe

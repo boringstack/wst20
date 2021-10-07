@@ -1,0 +1,1 @@
+# Mechanische Eigenschaften bei statischer Belastung

@@ -1,0 +1,1 @@
+# Gusseisen mit Kugelgraphit GJS (DIN EN 1563/11)

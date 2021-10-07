@@ -1,0 +1,1 @@
+# Wie lassen sich die unterschiedlichen Eigenschaften der Werkstoffe erklären?

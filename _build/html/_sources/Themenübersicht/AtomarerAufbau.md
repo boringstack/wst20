@@ -6,7 +6,13 @@
 <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
+---
+
 # Der Atomare Aufbau
+
+```{sidebar} My sidebar title
+My sidebar content
+```
 
 ## Was ist der ein Atom?
 

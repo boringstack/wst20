@@ -1,0 +1,1 @@
+# Temperguss GJMW/GJMB (DIN EN 1562/12)

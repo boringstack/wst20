@@ -1,0 +1,1 @@
+# Bezeichnung von NE-Metallen und -Legierungen

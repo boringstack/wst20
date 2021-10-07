@@ -1,0 +1,847 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Normal- und Schubspannung &#8212; WST20</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://wst20.netlify.app/Klausurthemen/Metalle/NormalSchubspannung.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Mechanismen zur Festigkeitssteigerung" href="Festigkeitssteigerung.html" />
+    <link rel="prev" title="Gitterbaufehler" href="Gitterbaufehler.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">WST20</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../index.html">
+   Willkommen
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Themen
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/AtomarerAufbau.html">
+   Der Atomare Aufbau
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/EisenKohlenstoffDiagramm.html">
+   Eisen-Kohlenstoff-Diagramm
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/FestigkeitssteigerungMetallen.html">
+   Festigkeitssteigerung bei Metallen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/ChemischeBindung.html">
+   Chemische Bindungen bei Metallen und Nichtmetallen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/BindungPolymere.html">
+   Bindungen in Polymeren und Strukturbildung
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/EinteilungsschemaKunststoffe.html">
+   Einteilungsschema für Kunststoffe
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/Zugversuch.html">
+   Zugversuch
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Themen/H%C3%A4rtepr%C3%BCfung.html">
+   Härteprüfung
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Aufgaben
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/GrundlegendeBegriffe.html">
+   Grundlegende Begriffe und Zusammenhänge
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/GrundlegendeBegriffe/GegenstandBedeutung.html">
+     Gegenstand und Bedeutung der Werkstoffkunde
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/GrundlegendeBegriffe/StellungTechnik.html">
+     Stellung und Bedeutung der Werkstoffkunde in der Technik
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/GrundlegendeBegriffe/Entwicklungsrichtung.html">
+     Entwicklungsrichtungen der Werkstofftechnik
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/GrundlegendeBegriffe/EigenschaftenWerkstoffe.html">
+     Wie lassen sich die unterschiedlichen Eigenschaften der Werkstoffe erklären?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/GrundlegendeBegriffe/Anforderungen.html">
+     Anforderungen an Werkstoffe
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/MetallischeWerkstoffe.html">
+   Metallische Werkstoffe
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/MetallischeWerkstoffe/Metallkunde.html">
+     Metallkunde
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/MetallischeWerkstoffe/StrukturVerformungRealkristalle.html">
+     Struktur und Verformung der Realkristalle
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/MetallischeWerkstoffe/Verfestigungsmechanismen.html">
+     Verfestigungsmechanismen
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/MetallischeWerkstoffe/Vorg%C3%A4ngeMetallgitter.html">
+     Vorgänge im Metallgitter bei höheren Temperaturen (Thermisch aktivierte Prozesse)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/MetallischeWerkstoffe/Legierungen.html">
+     Legierungen (Zweistofflegierungen)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/LegierungEKD.html">
+   Die Legierung Eisen-Kohlenstoff
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/LegierungEKD/Abk%C3%BChlkurve.html">
+     Abkühlkurve und Kristallarten des Reinesens
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/LegierungEKD/Erstarrungsformen.html">
+     Erstarrungsformen
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/LegierungEKD/EKD.html">
+     Das Eisen-Kohlenstoff-Diagramm (EKD)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/LegierungEKD/Einfluss.html">
+     Einfluss des Kohlenstoffs auf die Legierungseigenschaften
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/St%C3%A4hle.html">
+   Stähle
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/St%C3%A4hle/ErzeugungKlassifizierung.html">
+     Erzeugung und Klassifizierung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/St%C3%A4hle/AllgemeineVerwendung.html">
+     Allgemeine Verwendung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/St%C3%A4hle/Baust%C3%A4hle.html">
+     Baustähle höherer Festigkeit
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/St%C3%A4hle/BesondereEigenschaften.html">
+     Stähle mit besonderen Eigenschaften
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/St%C3%A4hle/Stahlgruppen.html">
+     Stahlgruppen
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/St%C3%A4hle/Stahlguss.html">
+     Stahlguss
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/W%C3%A4rmehandlungSt%C3%A4hle.html">
+   Wärmehandlung der Stähle
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/W%C3%A4rmehandlungSt%C3%A4hle/Allgemeines.html">
+     Allgemeines
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/W%C3%A4rmehandlungSt%C3%A4hle/Gl%C3%BChverfahren.html">
+     Glühverfahren
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/W%C3%A4rmehandlungSt%C3%A4hle/H%C3%A4rtenVerg%C3%BCten.html">
+     Härte und Vergüten
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/W%C3%A4rmehandlungSt%C3%A4hle/Aush%C3%A4rten.html">
+     Aushärten
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/W%C3%A4rmehandlungSt%C3%A4hle/ThermomechanischeVerfahren.html">
+     ThermomechanischeVerfahren
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/W%C3%A4rmehandlungSt%C3%A4hle/VerfahrenOberfl%C3%A4chenh%C3%A4rtung.html">
+     Verfahren der Oberflächenhärtung
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe.html">
+   Eisen-Gusswerkstoffe
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe/Einteilung.html">
+     Übersicht und Einteilung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe/Allgemeines.html">
+     Allgemeines über die Gefüge- und Graphitausbildung bei Gusseisen
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe/Lamellengraphit.html">
+     Gusseisen mit Lamellengraphit GJL (DIN EN 1561/11)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe/Kugelgraphit.html">
+     Gusseisen mit Kugelgraphit GJS (DIN EN 1563/11)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe/Temperguss.html">
+     Temperguss GJMW/GJMB (DIN EN 1562/12)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe/Vermiculargraphit.html">
+     Gusseisen mit Vermiculargraphit
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/EisenGusswerkstoffe/Sonderguss.html">
+     Sonderguss
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle.html">
+   Nichteisenmetalle
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle/Allgemeines.html">
+     Allgemeines
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle/Bezeichnung.html">
+     Bezeichnung von NE-Metallen und -Legierungen
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle/Aluminium.html">
+     Aluminium
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle/Kupfer.html">
+     Kupfer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle/Magnesium.html">
+     Magnesium
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle/Titan.html">
+     Titan
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Nichteisenmetalle/Nickel.html">
+     Nickel
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Aufgaben/NichtmetallischeAnorganischeWerkstoffe.html">
+   Nichtmetallische-anorganische Werkstoffe
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/Kunststoffe.html">
+   Kunststoffe (Polymere)
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Kunststoffe/Allgemeines.html">
+     Allgemeines
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Kunststoffe/Eigenschaften.html">
+     Eigenschaften
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Kunststoffe/Kunststoffe.html">
+     Gebräuchliche Kunststoffe
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Aufgaben/VerbundstrukturenVerbundwerkstoffe.html">
+   Verbundstrukturen und Verbundwerkstoffe
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/WerkstoffeBesondereHerstellung.html">
+   Werkstoffe besonderer Herstellung oder Eigenschaften
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/WerkstoffeBesondereHerstellung/Sintermetalle.html">
+     Pulvermetallurgie, Sintermetalle
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/WerkstoffeBesondereHerstellung/Schichtwerkstoffe.html">
+     Schichtwerkstoffe und Schichtherstellung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/WerkstoffeBesondereHerstellung/Lagerwerkstoffe.html">
+     Lager- und Gleitwerkstoffe
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Aufgaben/Korrosions.html">
+   Korrosionsbeanspruchung und Korrosionsschutz
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../Aufgaben/Werkstoffauswahl.html">
+   Überlegungen zur Werkstoffauswahl
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung.html">
+   Werkstoffprüfung
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/Aufgaben.html">
+     Aufgaben, Abgrenzung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/Werkstoffkennwerte.html">
+     Prüfung von Werkstoffkennwerten
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/StatBelastung.html">
+     Mechanische Eigenschaften bei statischer Belastung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/DynBelastung.html">
+     Dynamische Belastung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/ZykBelastung.html">
+     Zyklische Belastung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/H%C3%A4rte.html">
+     Messung der Härte
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/ThermVerfahren.html">
+     Thermische Verfahren
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/Verarbeitungseigenschaften.html">
+     Prüfung von Verarbeitungseigenschaften
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/Gef%C3%BCge.html">
+     Untersuchung des Gefüges
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/Zerst%C3%B6rungsfrei.html">
+     Zerstörungsfreie Werkstoffprüfung und Qualitätskontrolle
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Aufgaben/Werkstoffpr%C3%BCfung/ChemZusammensetzung.html">
+     Überprüfung der chemischen Zusammensetzung
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Klausurthemen
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../GliederungWerkstoffe.html">
+   Einteilung der Werkstoffe
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Prim%C3%A4rSekund%C3%A4rstruktur.html">
+   Primär- und Sekundärstruktur
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../Metalle.html">
+   Übersicht Metalle
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="Miller.html">
+     Millersche Index
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Gitter.html">
+     Gitter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Gitterbaufehler.html">
+     Gitterbaufehler
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Normal- und Schubspannung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Festigkeitssteigerung.html">
+     Mechanismen zur Festigkeitssteigerung
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="MetallIonenbindung.html">
+     Unterschied zwischen Metall- und Ionenbindung
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Kunststoffe.html">
+   Übersicht Kunststoffe
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Kunststoffe/TechEinteilung.html">
+     Technologische Einteilung von Kunststoffe
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Kunststoffe/Bindungsarten.html">
+     Bindungsarten in Kunststoffen
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Kunststoffe/ElementePolymeren.html">
+     Elemente hauptsächlich in Polymeren
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Kunststoffe/PhysikalischeEigenschaften.html">
+     Physikalische Eigenschaften in Polymeren
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Kunststoffe/AmorpheTeilkristallineThermoplaste.html">
+     Unterschied zwischen amorphe und teilkristalline Thermoplaste
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Kunststoffe/Nebenvalenzkr%C3%A4fte.html">
+     Nebenvalenzkräfte
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/Klausurthemen/Metalle/NormalSchubspannung.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Normal- und Schubspannung
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#elastische-und-plastische-verformung-erklaren">
+   Elastische und plastische Verformung erklären
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="normal-und-schubspannung">
+<h1>Normal- und Schubspannung<a class="headerlink" href="#normal-und-schubspannung" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="elastische-und-plastische-verformung-erklaren">
+<h1>Elastische und plastische Verformung erklären<a class="headerlink" href="#elastische-und-plastische-verformung-erklaren" title="Permalink to this headline">¶</a></h1>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Klausurthemen/Metalle"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="Gitterbaufehler.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Gitterbaufehler</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="Festigkeitssteigerung.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Mechanismen zur Festigkeitssteigerung</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By OpenMind - <a href="https://www.paypal.com/donate?business=keks05%40gmail.com&no_recurring=0&currency_code=EUR">Support</a><br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

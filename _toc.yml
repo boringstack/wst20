@@ -1,22 +1,116 @@
 format: jb-book
 root: index
 parts:
-  - caption: Themenübersicht
+  - caption: Themen
     chapters:
-    - file: Themenübersicht/Inhalte
+    - file: Themen/AtomarerAufbau
+    - file: Themen/EisenKohlenstoffDiagramm
+    - file: Themen/FestigkeitssteigerungMetallen
+    - file: Themen/ChemischeBindung
+    - file: Themen/BindungPolymere
+    - file: Themen/EinteilungsschemaKunststoffe
+    - file: Themen/Zugversuch
+    - file: Themen/Härteprüfung
+  - caption: Aufgaben
+    chapters:
+    - file: Aufgaben/GrundlegendeBegriffe
       sections:
-      - file: Themenübersicht/AtomarerAufbau
-      - file: Themenübersicht/EisenKohlenstoffDiagramm
-      - file: Themenübersicht/FestigkeitssteigerungMetallen
-      - file: Themenübersicht/ChemischeBindung
-      - file: Themenübersicht/BindungPolymere
-      - file: Themenübersicht/EinteilungsschemaKunststoffe
-      - file: Themenübersicht/Zugversuch
-      - file: Themenübersicht/Härteprüfung
+      - file: Aufgaben/GrundlegendeBegriffe/GegenstandBedeutung
+      - file: Aufgaben/GrundlegendeBegriffe/StellungTechnik
+      - file: Aufgaben/GrundlegendeBegriffe/Entwicklungsrichtung
+      - file: Aufgaben/GrundlegendeBegriffe/EigenschaftenWerkstoffe
+      - file: Aufgaben/GrundlegendeBegriffe/Anforderungen
+    - file: Aufgaben/MetallischeWerkstoffe
+      sections:
+      - file: Aufgaben/MetallischeWerkstoffe/Metallkunde
+      - file: Aufgaben/MetallischeWerkstoffe/StrukturVerformungRealkristalle
+      - file: Aufgaben/MetallischeWerkstoffe/Verfestigungsmechanismen
+      - file: Aufgaben/MetallischeWerkstoffe/VorgängeMetallgitter
+      - file: Aufgaben/MetallischeWerkstoffe/Legierungen
+    - file: Aufgaben/LegierungEKD
+      sections:
+      - file: Aufgaben/LegierungEKD/Abkühlkurve
+      - file: Aufgaben/LegierungEKD/Erstarrungsformen
+      - file: Aufgaben/LegierungEKD/EKD
+      - file: Aufgaben/LegierungEKD/Einfluss
+    - file: Aufgaben/Stähle
+      sections:
+      - file: Aufgaben/Stähle/ErzeugungKlassifizierung
+      - file: Aufgaben/Stähle/AllgemeineVerwendung
+      - file: Aufgaben/Stähle/Baustähle
+      - file: Aufgaben/Stähle/BesondereEigenschaften
+      - file: Aufgaben/Stähle/Stahlgruppen
+      - file: Aufgaben/Stähle/Stahlguss
+    - file: Aufgaben/WärmehandlungStähle
+      sections:
+      - file: Aufgaben/WärmehandlungStähle/Allgemeines
+      - file: Aufgaben/WärmehandlungStähle/Glühverfahren
+      - file: Aufgaben/WärmehandlungStähle/HärtenVergüten
+      - file: Aufgaben/WärmehandlungStähle/Aushärten
+      - file: Aufgaben/WärmehandlungStähle/ThermomechanischeVerfahren
+      - file: Aufgaben/WärmehandlungStähle/VerfahrenOberflächenhärtung
+    - file: Aufgaben/EisenGusswerkstoffe
+      sections: 
+      - file: Aufgaben/EisenGusswerkstoffe/Einteilung
+      - file: Aufgaben/EisenGusswerkstoffe/Allgemeines    
+      - file: Aufgaben/EisenGusswerkstoffe/Lamellengraphit 
+      - file: Aufgaben/EisenGusswerkstoffe/Kugelgraphit
+      - file: Aufgaben/EisenGusswerkstoffe/Temperguss
+      - file: Aufgaben/EisenGusswerkstoffe/Vermiculargraphit
+      - file: Aufgaben/EisenGusswerkstoffe/Sonderguss
+    - file: Aufgaben/Nichteisenmetalle
+      sections:
+      - file: Aufgaben/Nichteisenmetalle/Allgemeines
+      - file: Aufgaben/Nichteisenmetalle/Bezeichnung
+      - file: Aufgaben/Nichteisenmetalle/Aluminium
+      - file: Aufgaben/Nichteisenmetalle/Kupfer
+      - file: Aufgaben/Nichteisenmetalle/Magnesium
+      - file: Aufgaben/Nichteisenmetalle/Titan
+      - file: Aufgaben/Nichteisenmetalle/Nickel
+    - file: Aufgaben/NichtmetallischeAnorganischeWerkstoffe
+    - file: Aufgaben/Kunststoffe
+      sections:
+      - file: Aufgaben/Kunststoffe/Allgemeines
+      - file: Aufgaben/Kunststoffe/Eigenschaften
+      - file: Aufgaben/Kunststoffe/Kunststoffe
+    - file: Aufgaben/VerbundstrukturenVerbundwerkstoffe
+    - file: Aufgaben/WerkstoffeBesondereHerstellung
+      sections:
+      - file: Aufgaben/WerkstoffeBesondereHerstellung/Sintermetalle
+      - file: Aufgaben/WerkstoffeBesondereHerstellung/Schichtwerkstoffe
+      - file: Aufgaben/WerkstoffeBesondereHerstellung/Lagerwerkstoffe
+    - file: Aufgaben/Korrosions
+    - file: Aufgaben/Werkstoffauswahl
+    - file: Aufgaben/Werkstoffprüfung
+      sections: 
+      - file: Aufgaben/Werkstoffprüfung/Aufgaben
+      - file: Aufgaben/Werkstoffprüfung/Werkstoffkennwerte
+      - file: Aufgaben/Werkstoffprüfung/StatBelastung
+      - file: Aufgaben/Werkstoffprüfung/DynBelastung
+      - file: Aufgaben/Werkstoffprüfung/ZykBelastung
+      - file: Aufgaben/Werkstoffprüfung/Härte
+      - file: Aufgaben/Werkstoffprüfung/ThermVerfahren
+      - file: Aufgaben/Werkstoffprüfung/Verarbeitungseigenschaften
+      - file: Aufgaben/Werkstoffprüfung/Gefüge
+      - file: Aufgaben/Werkstoffprüfung/Zerstörungsfrei
+      - file: Aufgaben/Werkstoffprüfung/ChemZusammensetzung
   - caption: Klausurthemen
     chapters:
     - file: Klausurthemen/GliederungWerkstoffe
-    - file: Klausurthemen/Miller
-    - file: Klausurthemen/Gitter
-    - file: Klausurthemen/Gitterbaufehler
-    - file: Klausurthemen/TechEinteilungKunststoffe
+    - file: Klausurthemen/PrimärSekundärstruktur
+    - file: Klausurthemen/Metalle
+      sections: 
+      - file: Klausurthemen/Metalle/Miller
+      - file: Klausurthemen/Metalle/Gitter
+      - file: Klausurthemen/Metalle/Gitterbaufehler
+      - file: Klausurthemen/Metalle/NormalSchubspannung
+      - file: Klausurthemen/Metalle/Festigkeitssteigerung
+      - file: Klausurthemen/Metalle/MetallIonenbindung
+    - file: Klausurthemen/Kunststoffe
+      sections:
+      - file: Klausurthemen/Kunststoffe/TechEinteilung
+      - file: Klausurthemen/Kunststoffe/Bindungsarten
+      - file: Klausurthemen/Kunststoffe/ElementePolymeren
+      - file: Klausurthemen/Kunststoffe/PhysikalischeEigenschaften
+      - file: Klausurthemen/Kunststoffe/AmorpheTeilkristallineThermoplaste
+      - file: Klausurthemen/Kunststoffe/Nebenvalenzkräfte

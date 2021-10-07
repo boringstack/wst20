@@ -1,0 +1,1 @@
+# Prüfung von Verarbeitungseigenschaften

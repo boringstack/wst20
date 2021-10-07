@@ -1,0 +1,1 @@
+# Vorgänge im Metallgitter bei höheren Temperaturen (Thermisch aktivierte Prozesse)

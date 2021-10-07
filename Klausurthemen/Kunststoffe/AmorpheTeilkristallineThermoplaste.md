@@ -1,0 +1,1 @@
+# Unterschied zwischen amorphe und teilkristalline Thermoplaste

@@ -1,0 +1,1 @@
+# Unterschied zwischen Metall- und Ionenbindung

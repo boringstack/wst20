@@ -1,0 +1,1 @@
+# Gusseisen mit Lamellengraphit GJL (DIN EN 1561/11)

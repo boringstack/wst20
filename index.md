@@ -4,7 +4,8 @@ Ein Seite mit den relevanten Themenbereichen zu Werkstoffkunde
 
 Es gibt zwei übergeordnete Kategorien:
 
-- Themenübersicht
+- Themen
+- Aufgaben
 - Klausurthemen
 
 In der Themenübersicht sind Zusammenfassungen zu den wichtigsten Themen.

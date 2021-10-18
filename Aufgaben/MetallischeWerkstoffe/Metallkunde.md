@@ -58,7 +58,6 @@ Abstoßende Kräfte: positive Atomrümpfen und negative Elektronen stoßen sich 
 Anziehende Kräfte: positive Atomrüpfe und negative Elektronen ziehen sich an.
 ```
 
-
 #### Aufgabe Nr. 5
 ```{dropdown} Wodurch kommt die Metallbindung zustande?
 Durch die Balance der allseitig in den Raum gehenden gegensätzlichen Kräfte halten die Atomrümpfe gleichmäßige Abstände ein.
@@ -149,13 +148,13 @@ Verformbarkeit und Festigkeit.
 Ein Atom ist von sechs anderen in einer Ebene umgeben. Darüber und darunter liegen jeweils drei Atome, die mit dem ersten Atom einen Tetraeder bilden.
 ```
 
-#### Aufgabe 5
+#### Aufgabe Nr. 5
 ```{dropdown} <span style="color:red"> Wie viele Nachbarn mit gleichem, kürzestem Abstand besitzt jedes beliebige Atom in einem hexagonalen Kristallgitter?
 
 </span>
 ```
 
-#### Aufgabe 6
+#### Aufgabe Nr. 6
 ```{dropdown} <span style="color:red"> Welche Schichten liegen beim hexagonalen Kristallgitter übereinander?
 
 </span>
@@ -177,36 +176,36 @@ Hexagonales Kristallgitter
 - Ti bei Raumtemperatur
 ```
 
-#### Aufgabe 9
+#### Aufgabe Nr. 9
 ```{dropdown} <span style="color:red"> Was versteht man unter dem Begriff Koordinationszahl?
 
 </span>
 ```
 
-#### Aufgabe Nr. 8
+#### Aufgabe Nr. 10
 ```{dropdown} Was versteht man unter dem Begriff Elementarzelle eines Kristallgitters?
 Elementarzelle ist eine Darstellung der räumlichen Anordnung der Atome in einem Kristallgitter mit möglichst wenigen Atomen.
 ```
 
-#### Aufgabe 11
+#### Aufgabe Nr. 11
 ```{dropdown} <span style="color:red"> Was versteht man unter dem Begriff Gitterkonstante eines Kristallgitters?
 
 </span>
 ```
 
-#### Aufgabe 12
+#### Aufgabe Nr. 12
 ```{dropdown} Was haben das kubisch-flächenzentrierte und das hexagonale Kristallgitter gemeinsam?
 Bei beiden Kristallgittern liegt die dichteste Kugelpackung vor.
 </span>
 ```
 
-#### Aufgabe 13
+#### Aufgabe Nr. 13
 ```{dropdown} Wodurch unterscheiden sich das kubisch-flächenzentrierte und das hexagonale Kristallgitter voneinander?
 Beim kubisch-flächenzentrierten Raumgitter liegen die erste und vierte Schicht übereinander, beim hexagonalen die erste und dritte.
 </span>
 ```
 
-#### Aufgabe 14
+#### Aufgabe Nr. 14
 ````{dropdown} Skizzieren einer Elementarzelle des kubisch-flächenzentrierten Kristallgitters.
 ```{figure} /bilder/kfz.png
 :name: KubischFlächenzentriert
@@ -216,7 +215,7 @@ Kubisch-flächenzentriertes Kristallgitter
 </span>
 ````
 
-#### Aufgabe 15
+#### Aufgabe Nr. 15
 ```{dropdown} Nenne zwei Metalle, die kubisch-flächenzentrierten Kristallgitters.
 - Cu
 - $\gamma$-Eisen
@@ -226,32 +225,32 @@ Kubisch-flächenzentriertes Kristallgitter
 </span>
 ```
 
-#### Aufgabe 16
+#### Aufgabe Nr. 16
 ```{dropdown} <span style="color:red"> Berechne die Packungsdichte des kubisch-flächenzentrierten Gitters.
 
 </span>
 ```
 
-#### Aufgabe 17
+#### Aufgabe Nr. 17
 ```{dropdown} <span style="color:red"> Erläutere den Aufbau des kubisch-raumzentrierten Kristallgitters.
 
 </span>
 ```
 
 
-#### Aufgabe 18
+#### Aufgabe Nr. 18
 ```{dropdown} <span style="color:red"> Welche Koordinationszahl liegt beim kubisch-raumzentrierten Kristallgitter vor?
 
 </span>
 ```
 
-#### Aufgabe 19
+#### Aufgabe Nr. 19
 ```{dropdown} <span style="color:red"> Welche Folgerung kann man aus der Koordinationszahl auf die Dichte der Kugelpackung ziehen?
 
 </span>
 ```
 
-#### Aufgabe 20
+#### Aufgabe Nr. 20
 ````{dropdown} Skizziere eine Elementarzelle des kubisch-raumzentrierten Kristallgitters.
 ```{figure} /bilder/krz.png
 :name: KubischRaumzentriertes
@@ -261,62 +260,62 @@ Kubisch-raumzentriertes Kristallgitter
 </span>
 ````
 
-#### Aufgabe 21
+#### Aufgabe Nr. 21
 ```{dropdown} <span style="color:red"> Berechne die Packungsdichte des kubisch-raumzentrierten Gitters.
 
 </span>
 ```
 
-#### Aufgabe 22
+#### Aufgabe Nr. 22
 ```{dropdown} Welche Packungsdichte hat die hexagonal dichteste Packung?
 74% wie das kubisch-flächenzentrierte Kristallgitter
 </span>
 ```
 
-#### Aufgabe 23
+#### Aufgabe Nr. 23
 ```{dropdown} Wie heißt der Gegensatz von kristallin? Wie können Metalle diesen Zustand annehmen?
 Amorph, d.h. *ohne Gestalt* oder glasig. Amorphe Metalle entstehen bei extrem schneller Abkühlung aus der Schmelze.
 </span>
 ```
 
-#### Aufgabe 24
+#### Aufgabe Nr. 24
 ```{dropdown} <span style="color:red"> Wie wirkt sich die Periodizität der Atomanordnung bei einem Bruch auf das Aussehen der Bruchfläche aus?
 
 </span>
 ```
 
-#### Aufgabe 25
+#### Aufgabe Nr. 25
 ```{dropdown} Nenne zwei Metalle mit verschiedenen Kristallgittern bei verschiedenen Temperaturen.
 - Eisen (krz) bei tiefen Temperaturen, oberhalb 911°C (kfz)
 - Titan (hdp) bei tiefen Temperaturen, oberhalb 882°C (krz)
 </span>
 ```
 
-#### Aufgabe 26
+#### Aufgabe Nr. 26
 ```{dropdown} <span style="color:red"> Zwei verschiedene Atomsorten können gemeinsame ideale Kristallgitter bilden. Nenne die Möglichkeiten.
 
 </span>
 ```
 
-#### Aufgabe 27
+#### Aufgabe Nr. 27
 ```{dropdown} <span style="color:red"> Nenne die wichtigsten Eigenschaften intermetallischer Phasen.
 
 </span>
 ```
 
-#### Aufgabe 28
+#### Aufgabe Nr. 28
 ```{dropdown} <span style="color:red"> Berechne aus der Gitterkonstante, wie viele Atome sich in einem Aluminiumwürfel der Kantenlänge 1cm befinden.
 
 </span>
 ```
 
-#### Aufgabe 29
+#### Aufgabe Nr. 29
 ```{dropdown} <span style="color:red"> Welches Volumen nimmt 1mol Aluminium ein?
 
 </span>
 ```
 
-#### Aufgabe 30
+#### Aufgabe Nr. 30
 ```{dropdown} <span style="color:red"> Bereche aus Dichte und relativer Atommasse des Eisen seine Gitterkonstante unter der Voraussetzung, dass das Eisen gitterfehlerfrei ist.
 
 </span>
@@ -336,6 +335,12 @@ Größe, Form und Anordnung der Kristalle mit ihren Korngrenzen sowie Verunreini
 
 #### Aufgabe Nr. 2
 ```{dropdown} Wie wird das Gefüge von Metallen sichtbar gemacht?
+Durch das Schliffbild. Schleifen und Polieren einer Probe sowie Anätzen der Oberfläche zur Erzeugung von Kontrasten.
+</span>
+```
+
+#### Aufgabe Nr. 3
+```{dropdown} Bei welchen Verfahren entstehen Primärgefüge, wobei Sekundärgefüge 
 Durch das Schliffbild. Schleifen und Polieren einer Probe sowie Anätzen der Oberfläche zur Erzeugung von Kontrasten.
 </span>
 ```

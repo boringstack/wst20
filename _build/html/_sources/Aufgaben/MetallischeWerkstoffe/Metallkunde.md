@@ -344,3 +344,70 @@ Durch das Schliffbild. Schleifen und Polieren einer Probe sowie Anätzen der Obe
 Durch das Schliffbild. Schleifen und Polieren einer Probe sowie Anätzen der Oberfläche zur Erzeugung von Kontrasten.
 </span>
 ```
+
+#### Aufgabe Nr. 4
+```{dropdown} Damit eine Schmelze kristallisiert, müssen zwei Bedingungen erfüllt sein, nenne diese.
+1. Abkühlung auf Temperaturen unterhalb des Erstarrungspunktes.
+2. Vorhandensein von Kristallisationskeimen.
+</span>
+```
+
+#### Aufgabe Nr. 5
+```{dropdown} <span style="color:red"> Was versteht man unter arteigenen, artfremden Kristallkeimen?
+
+</span>
+```
+
+#### Aufgabe Nr. 6
+```{dropdown} Durch welche Maßnahmen kann bei der Erstarrung ein feinkörniges Gefüge entstehen?
+1. Schnelles Abkühlen 
+2. Zusatz von Fremdkeimen (Impfstoffen)
+</span>
+```
+
+#### Aufgabe Nr. 7
+```{dropdown} Welche Ursache hat die Kristallisationswärme?
+Wenn ein Metallatom sich aus der Schmelze an ein Kristallgitter angliedert, so verkleinert sich seine kinetische Energie. Nach dem Energieerhaltungssatz geht dieser Betrag nicht verloren, sondern erscheint als Kristallisationswärme.
+</span>
+```
+
+#### Aufgabe Nr. 8
+```{dropdown} Was bedeutet Unterkühlung einer Schmelze?
+Unterkühlung ist die Temperaturdifferenz zwischen dem Erstarrungspunkt und der wirklichen Temperatur der Schmelze (z.B. an einer kleinern Formwand). Dieser Ungleichgewichtszustand wird durch Wachstum von Kristallen und die dabei freiwerdende Kristallisationswärme wieder ins Gleichgewicht gebracht.
+</span>
+```
+
+#### Aufgabe Nr. 9
+```{dropdown} Was versteht man unter Anisotropie? Gebe je ein Beispiel für isotropes und anisotropes Verhalten eines beliebigen Werkstoffes?
+- Anisotropie: ist das Phänomen, dass ein Körper unterschiedliche Eigenschaften in unterschiedliche Richtungen hat.
+- Anisotrop: verhält sich ein Einkristall, dessen Eigenschaften von der Richtung im Raumgitter abhängen.
+- Isotrope: Körper wie z.B. Glas, Wachs, reine Kunstharze haben keine richtungsabhängigen Eigenschaften.
+- Glasfaserkunststoff GFK hat höchste Festigkeit in Faserrichtung, quer dazu wesentlich geringere. Holz verhält sich ebenso.
+- Graphit hat eine elektrische Leitfähigkeit nur senkrecht zur c-Achse Gitters, in Richtung der c-Achse ist Graphit fast ein Isolator. Desgleichen hat Graphit die Fähigkeit, in dünnsten Schichten abzugleiten: Schmierwirkung als Festschmierstoff.
+</span>
+```
+
+#### Aufgabe Nr. 10
+```{dropdown} Was versteht man unter Textur, welche Folge hat sie auf die Eigenschaften eines Werkstoffes?
+Eine bevorzugte Ausrichtung bestimmter Kristallachsen im Raum, hervorgerufen durch Bearbeitungsverfahren wie Gießen, Walzen und Ziehen. Dadurch verhält sich der Werkstoff anisotrop. Normalerweise sind im vielkristallinen Werkstoff die Kristalle regellos ausgerichtet; er verhält sich, als ob er isotrop wäre (quasi-isotrop).
+</span>
+```
+
+#### Aufgabe Nr. 11
+```{dropdown} <span style="color:red"> Welcher Unterschied besteht zwischen Faserstruktur und Textur?
+
+</span>
+```
+
+#### Aufgabe Nr. 12
+```{dropdown} <span style="color:red"> Wodurch entsteht im Stahl eine Schmiedefaser?
+
+</span>
+```
+
+#### Aufgabe Nr. 13
+```{dropdown} <span style="color:red"> Welche Auswirkungen hat die Schmiedefaser auf Eigenschaften von Proben die aus einem gewalzten Blech entnommen wurden?
+
+</span>
+```
+
